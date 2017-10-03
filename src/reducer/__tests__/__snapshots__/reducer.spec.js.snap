@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer initializes the state 1`] = `
+Object {
+  "alert": "",
+  "customers": Array [],
+  "loadingInitialData": true,
+  "orders": Array [],
+  "products": Array [],
+}
+`;
