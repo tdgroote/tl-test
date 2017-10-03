@@ -24,7 +24,7 @@ const handleError = (store, message = ERROR_GENERAL) => () => {
 };
 
 const callNext = (action, next) => () => next(action);
-const callNextWithPayload = ({ type }, next) => (payload) => next({
+const callNextWithPayload = ({ type }, next) => payload => next({
     type,
     payload
 });

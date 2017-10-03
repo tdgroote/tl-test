@@ -25,7 +25,7 @@ const initialState = {
     alert: ''
 };
 
-const alert = alert => newState => (combineObjs(newState, { alert }));
+const alert = alert => newState => combineObjs(newState, { alert });
 const removeOrder = ordersActionHandler(flip(removeById));
 
 const actionHandlers = {
